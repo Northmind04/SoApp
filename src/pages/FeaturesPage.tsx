@@ -1,6 +1,6 @@
 
 import React from "react";
-import { ShoppingBag, Search, Globe, Shield, TrendingUp, RefreshCw, Smartphone, CreditCard, Clock, UserCheck, AlertCircle, Share2 } from "lucide-react";
+import { ShoppingBag, Search, Shield, TrendingUp, Smartphone, CreditCard, Clock, UserCheck, AlertCircle, Share2 } from "lucide-react";
 
 const FeaturesPage: React.FC = () => {
   return (
@@ -53,16 +53,16 @@ const FeaturesPage: React.FC = () => {
               </div>
               <h3 className="text-xl font-bold mb-3">Real-Time Inventory Management</h3>
               <p className="text-gray-600 mb-4 flex-grow">
-                Store managers and customers receive instant alerts when a product is running low or 
-                out of stock. This helps in maintaining optimal inventory levels and prevents 
-                customer disappointment.
+                Store owners gain complete control over their inventory with real-time tracking and automated alerts. 
+                The system provides insights on stock levels, product performance, and automatically flags when 
+                restocking is needed.
               </p>
               <div className="mt-4 pt-4 border-t border-gray-100">
                 <h4 className="font-semibold text-sm uppercase text-gray-500 mb-2">Benefits</h4>
                 <ul className="list-disc pl-5 text-gray-600 space-y-1">
-                  <li>Prevents stockouts</li>
-                  <li>Optimizes inventory costs</li>
-                  <li>Enhances customer experience</li>
+                  <li>Optimizes stock levels</li>
+                  <li>Reduces inventory costs</li>
+                  <li>Automates reordering processes</li>
                 </ul>
               </div>
             </div>
@@ -74,66 +74,22 @@ const FeaturesPage: React.FC = () => {
                   <Search className="text-soapp-blue" size={24} />
                 </div>
               </div>
-              <h3 className="text-xl font-bold mb-3">In-Store Navigation</h3>
+              <h3 className="text-xl font-bold mb-3">Real-Time Product Availability</h3>
               <p className="text-gray-600 mb-4 flex-grow">
-                Customers can search for items and get precise directions to the exact aisle in the store.
-                The app provides a map with the shortest route to find products, making shopping efficient.
+                Customers can instantly check product availability before or during their shopping trip.
+                The app displays real-time stock levels, helping shoppers make informed decisions and save time.
               </p>
               <div className="mt-4 pt-4 border-t border-gray-100">
                 <h4 className="font-semibold text-sm uppercase text-gray-500 mb-2">Benefits</h4>
                 <ul className="list-disc pl-5 text-gray-600 space-y-1">
-                  <li>Reduces time spent searching</li>
-                  <li>Improves store layout efficiency</li>
+                  <li>Prevents wasted shopping trips</li>
                   <li>Enhances customer experience</li>
+                  <li>Reduces customer frustration</li>
                 </ul>
               </div>
             </div>
 
-            {/* Feature 4 */}
-            <div className="feature-card flex flex-col">
-              <div className="mb-6">
-                <div className="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center">
-                  <Globe className="text-soapp-blue" size={24} />
-                </div>
-              </div>
-              <h3 className="text-xl font-bold mb-3">Multiple Language Support</h3>
-              <p className="text-gray-600 mb-4 flex-grow">
-                Ensures accessibility for all customers with support for multiple languages and 
-                voice commands for the elderly or visually impaired shoppers.
-              </p>
-              <div className="mt-4 pt-4 border-t border-gray-100">
-                <h4 className="font-semibold text-sm uppercase text-gray-500 mb-2">Benefits</h4>
-                <ul className="list-disc pl-5 text-gray-600 space-y-1">
-                  <li>Greater accessibility</li>
-                  <li>Serves diverse customer base</li>
-                  <li>Voice command technology</li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Feature 5 */}
-            <div className="feature-card flex flex-col">
-              <div className="mb-6">
-                <div className="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center">
-                  <RefreshCw className="text-soapp-blue" size={24} />
-                </div>
-              </div>
-              <h3 className="text-xl font-bold mb-3">Contactless Returns</h3>
-              <p className="text-gray-600 mb-4 flex-grow">
-                Process returns directly through the app, saving time and effort. Customers can 
-                initiate returns from home and simply drop off items without waiting in service lines.
-              </p>
-              <div className="mt-4 pt-4 border-t border-gray-100">
-                <h4 className="font-semibold text-sm uppercase text-gray-500 mb-2">Benefits</h4>
-                <ul className="list-disc pl-5 text-gray-600 space-y-1">
-                  <li>Streamlined return process</li>
-                  <li>Reduces in-store congestion</li>
-                  <li>Improves customer satisfaction</li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Feature 6 */}
+            {/* Feature 4 - Enhanced Security */}
             <div className="feature-card flex flex-col">
               <div className="mb-6">
                 <div className="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center">
